@@ -2,75 +2,15 @@
 
 [English](PUBLIC_DENYLIST.md) | [Русский](PUBLIC_DENYLIST.ru.md)
 
-**Snapshot — 2026-10-18. Default deny for additions. The curated documentation has been published publicly with the owner's authorization. The source remains private.**
+The [allowlist](PUBLIC_ALLOWLIST.md) names all ten permitted files and their scope. Everything else is excluded by default. These prohibitions take priority over an allowed category, including when there is uncertainty.
 
-This policy describes prohibited categories without including examples of their actual contents. It overrides the allowlist whenever there is uncertainty or conflict.
+## Keep out
 
-## Never include in this package
+- **Credentials and identity:** secrets, tokens, cookies, keys, environment exports, personal data, and private account, device, or infrastructure identifiers—even partially masked.
+- **Code and operations:** source, executable snippets, binaries, dependencies, launchers, runnable configuration, exact endpoints, addresses, ports, process names, command payloads, and connection details. No setup or invocation instructions for accounts, proxies, remote desktop, VMs, adapters, RPC, shell, or private infrastructure.
+- **Memory and game data:** offsets, signatures, pointer chains, dumps, reverse-engineering notes, real maps, meshes, routes, geometry, and derived navigation data.
+- **Private history and recordings:** private documentation excerpts, development history, raw sessions, logs, telemetry, screenshots, crash dumps, network captures, and sensitive artifacts. Shortening, filtering, or renaming private material does not make it redacted or synthetic.
+- **Uncleared assets:** extracted or third-party material without confirmed origin and redistribution rights. This package grants no rights to private code, dependencies, or assets.
+- **Unsupported claims:** readiness, reliability, autonomy, checkpoint recovery, remote integration, fleet acceptance, capacity, or settled rotation presented as proven; a current result inferred from a historical pass or failure; CI coverage or a frozen release without evidence; proposed demos presented as existing or as proof of live behavior. Stating what is unproven is allowed.
 
-### Secrets and identity
-
-- Secrets or their values, credentials, authentication material, session cookies, tokens, private keys, or environment exports.
-- Account identifiers, personal data, device identifiers, or infrastructure identifiers derived from private operation.
-- Partially masked values that could still identify or enable access to a private system.
-
-### Private implementation and integration details
-
-- Source code, binaries, dependencies, executable snippets, launchers, or runnable configuration.
-- Memory offsets, signatures, pointer chains, memory dumps, or reverse-engineering notes.
-- Exact endpoints, addresses, ports, process names, command payloads, or connection details.
-- Operational instructions for accounts, proxies, remote desktop, VMs, remote adapters, or private infrastructure.
-- Instructions for invoking internal RPC or shell facilities, or reproducing the untrusted command boundary.
-
-### Private evidence and assets
-
-- Raw sessions, logs, recordings, telemetry exports, screenshots, crash dumps, or captured network traffic.
-- Real maps, meshes, routes, geometry, navigation captures, or derived copies of private world data.
-- Sensitive artifacts copied from the source tree, local working directories, or runtime storage.
-- Truncated recordings presented as redacted evidence. Truncation is not redaction.
-- Private material relabeled "synthetic" after renaming, filtering, shortening, or cosmetic transformation.
-
-### Unreviewed rights and provenance
-
-- Third-party or extracted assets without established redistribution rights.
-- Material with unknown origin, unclear licensing, or provenance that cannot be explained safely.
-- Any implication that this package grants a license to the private source or its dependencies and assets.
-
-### Unsupported claims
-
-- Production readiness, deployment readiness, guaranteed reliability, or supported operating capacity.
-- Proven full autonomous campaign completion or end-to-end checkpoint recovery.
-- Complete remote VM wiring, validated fleet capacity, or settled fleet rotation behavior.
-- A current full-gate pass inferred from historical green runs.
-- Tracked CI coverage or a frozen release where neither is established.
-- A claim that planned synthetic demos already exist, have passed, or validate live-system behavior.
-
-Negative statements that explicitly identify these claims as unproven are allowed; affirmative readiness claims are not.
-
-## Prohibited actions within this task
-
-- Modifying the private source project.
-- Running its bot, servers, diagnostic tools, tests, or live game.
-- Adding any executable or runnable showcase material.
-- Publishing, uploading, pushing, or sharing material beyond the owner-authorized curated documentation without separate approval and review.
-
-## When in doubt
-
-Leave the material out. Describe the limitation at a high level rather than inserting a realistic example. Any future inclusion needs its own authorization and privacy, security, licensing, and provenance review.
-
-## Documentation inventory
-
-This package contains ten text documents (five English + five Russian):
-
-- `README.md`
-- `README.ru.md`
-- `docs/current-stage.md`
-- `docs/current-stage.ru.md`
-- `docs/what-will-be-shown.md`
-- `docs/what-will-be-shown.ru.md`
-- `PUBLIC_ALLOWLIST.md`
-- `PUBLIC_ALLOWLIST.ru.md`
-- `PUBLIC_DENYLIST.md`
-- `PUBLIC_DENYLIST.ru.md`
-
-The source remains private. This ten-document curated package is public and non-runnable. No runtime or demo has been published; future additions require separate approval and review.
+Do not modify or run the private source, bot, servers, diagnostics, tests, or game as part of documentation work. Do not add runnable material. Future additions or publication beyond the authorized documentation require separate owner approval and content, privacy, security, provenance, and rights review.

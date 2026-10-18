@@ -2,13 +2,9 @@
 
 [English](PUBLIC_ALLOWLIST.md) | [Русский](PUBLIC_ALLOWLIST.ru.md)
 
-**Snapshot — 2026-10-18. This policy covers the public curated documentation and review of future additions.**
+The owner has authorized these ten public Markdown documents. The source remains private; no runtime or demo is published.
 
-The curated documentation has been published publicly with the owner's authorization. The source remains private. No runtime or demo has been published; future additions require separate approval and review.
-
-## Allowed in this package
-
-Only these ten text documents (five English + five Russian) are in scope:
+## Files in scope
 
 - `README.md`
 - `README.ru.md`
@@ -21,30 +17,20 @@ Only these ten text documents (five English + five Russian) are in scope:
 - `PUBLIC_DENYLIST.md`
 - `PUBLIC_DENYLIST.ru.md`
 
-English and Russian versions are permitted. Permitted content is limited to:
+## Allowed content
 
-- A coming-later description of evidence-driven automation, fault-tolerant control, navigation planning, and offline replay as future demonstration goals.
-- Abstract descriptions of campaign/FSM, control plane, navigation, tracker, and experimental fleet layers.
-- Honest status statements: core layers implemented; integration and offline validation ongoing; full autonomy and remote fleet acceptance pending; active working copy and feature work; not a frozen release; historical green and failure runs; no tracked CI; current full gate not established.
-- Explicit limits on what is unproven, including autonomous campaign completion, checkpoint recovery, remote VM wiring, and fleet capacity.
-- High-level blocker descriptions that disclose no exploitable details or operational values.
-- Prose descriptions of planned synthetic demonstrations and their evidence boundaries.
-- Privacy, provenance, licensing, and publication-review requirements.
-- Relative links between these ten documents.
-
-## Candidate future material, not included or approved now
-
-Original toy state diagrams, invented graphs, fabricated event timelines, and abstract worker simulations may be considered later. They must be authored independently of private artifacts, clearly labeled synthetic, and reviewed for provenance and sensitive content.
-
-This list does not pre-approve adding files, creating a runnable demo, exporting private data, or publishing future additions. No source license or redistribution permission is granted by this package.
+- A plain description of Torch as a bot project for Torchlight Infinite and the roles of its campaign/FSM, controls, navigation, tracker, and experimental fleet.
+- The implementation status, check history, unproven behavior, and high-level blockers described in [current stage](docs/current-stage.md), without private operational details.
+- Proposals for synthetic, offline examples as described in [proposed demos](docs/what-will-be-shown.md), clearly separated from existing work and results.
+- Privacy, licensing, provenance, and publication-review rules.
+- English and Russian versions with relative links between these ten documents.
 
 ## Review rules
 
-1. Default to exclusion for anything not explicitly allowed.
-2. Apply the denylist even to content that appears to fit an allowed category; the denylist wins in a conflict.
-3. Do not copy private code, documentation excerpts, logs, sessions, recordings, or runtime assets into this package.
-4. Do not treat truncation, renaming, or partial masking as sufficient redaction.
-5. Separate historical observations, present unknowns, and future goals in every claim.
-6. Require a separate, explicit owner decision before publishing future additions, followed by content and rights review.
+Anything not explicitly allowed stays out. The [denylist](PUBLIC_DENYLIST.md) takes priority in a conflict or when there is uncertainty.
 
-The source remains private; the current ten-document curated package (five English + five Russian) is public.
+Do not copy private code, documentation excerpts, history, logs, sessions, recordings, or runtime assets. Truncation, renaming, and partial masking are not sufficient redaction. Keep historical results, current unknowns, and future proposals distinct.
+
+Future additions need separate, explicit owner approval and content, privacy, security, provenance, and rights review. Original toy diagrams, invented graphs, fabricated timelines, and worker simulations may be considered, but are not approved by this list. They must be created independently of private artifacts and labeled synthetic.
+
+These documents grant no license to the private source or its dependencies and assets.

@@ -1,47 +1,26 @@
-# What will be shown later
+# Proposed demos
 
 [English](what-will-be-shown.md) | [Русский](what-will-be-shown.ru.md)
 
-**Snapshot — 2026-10-18. Curated documentation published publicly with the owner's authorization. Planned demonstrations only; no runtime or demo has been published.**
+These are proposals for synthetic, offline examples, not demos that exist today. Inputs would be invented for each example rather than exported from private sessions.
 
-The source remains private. The proposed showcase will explain evidence-driven automation using newly authored synthetic scenarios, not exports from private sessions or live environments.
+## Examples to consider
 
-## Target synthetic demonstrations
+- **Campaign / FSM.** A small progression model with successful, interrupted, and invalid transitions. Show the state changes, invariants, and conditions that stop the model.
+- **Control failures.** Fabricated commands with missing, delayed, or failed responses. Show bounded retries, safe stopping, and which observations a decision relies on.
+- **Navigation.** An invented graph or grid with obstacles and changing reachability. Show route selection, replanning, and an unreachable destination.
+- **Replay and tracker.** A fabricated event stream with stale, duplicate, missing, and conflicting observations. Reconstruct its timeline and show where the observation contract breaks.
+- **Checkpoint recovery model.** Toy states and checkpoints with interrupted transitions. Distinguish safe continuation, rejected recovery, and cases that need intervention.
+- **Fleet simulation.** Abstract workers with task ownership, interruption, and handover. Explore rotation rules, assignment invariants, and failure traces within a bounded simulation.
 
-| Target | Synthetic setup | Intended evidence | What it would not prove |
-| --- | --- | --- | --- |
-| Campaign / FSM | A small invented progression model with successful, interrupted, and invalid transitions. | An inspectable transition narrative, explicit invariants, and visible stop conditions. | Full autonomous campaign completion in the private system. |
-| Fault-tolerant control | Fabricated commands and observations with injected missing, delayed, or failed responses. | Bounded retry decisions, safe stopping, and a clear account of what is known and unknown. | Security or reliability of a real internal RPC/shell boundary. |
-| Navigation planning | An invented graph or grid with synthetic obstacles and changing reachability. | A route explanation, replanning decisions, and explicit unreachable outcomes. | Performance on real maps or meshes, or live movement reliability. |
-| Offline replay and tracker | A purpose-built stream of fabricated events, including stale, duplicate, missing, and conflicting observations. | A reconstructable timeline, documented replay assumptions, and visible contract failures. | Completeness of private recordings or correctness of live adapter/tracker wiring. |
-| Checkpoint recovery model | A toy state model with invented checkpoints and interrupted transitions. | A clear distinction between safe continuation, rejected recovery, and required intervention. | Proven end-to-end checkpoint recovery in the private project. |
-| Experimental fleet | A bounded simulation of abstract workers with ownership, interruption, and handover cases. | Explicit rotation rules, assignment invariants, and failure traces. | Remote VM readiness, usable fleet capacity, or production scaling. |
+## What an example should explain
 
-These are design targets, not existing demo results or promises of a release date.
+Each example should name its question, describe how the inputs were invented, and state the expected invariant. It should include a failure case as well as a successful one, show the observations behind the result, and explain its assumptions and stopping conditions.
 
-## Evidence standard for future material
+A result would apply to that model only. It would not establish live campaign autonomy, end-to-end checkpoint recovery, RPC/shell security, live navigation or adapter/tracker correctness, remote VM readiness, or fleet capacity.
 
-Each proposed demo should state:
+## Before adding anything
 
-1. The narrow question it addresses and the claim it does not address.
-2. How its inputs were invented, without private-data derivation.
-3. The expected invariant and a counterexample or failure case.
-4. The observations that support the result, including uncertainty and stopping conditions.
-5. The assumptions and limits that prevent extrapolation to the private live system.
+Use original toy geometry and fabricated events, not renamed or shortened private material. Content, sensitive data, provenance, and redistribution rights need review, along with separate owner approval. The [allowlist](../PUBLIC_ALLOWLIST.md) and [denylist](../PUBLIC_DENYLIST.md) define the publication rules.
 
-Offline replay is a future demonstration goal. No private replay data, raw sessions, or logs are bundled here. Truncating a recording does not make it redacted or suitable for distribution.
-
-## Boundaries
-
-- Use only invented entities, generic state names, synthetic events, and original toy geometry.
-- Do not reconstruct private maps, meshes, memory layouts, operational identifiers, or integration details.
-- Do not include credentials, secrets or their values, live addresses, exact endpoints or ports, or process names.
-- Do not provide account, proxy, remote-desktop, or VM setup instructions.
-- Do not turn a synthetic demonstration into a production or live-game claim.
-- Treat licensing and provenance review as prerequisites, not assumptions.
-
-## Release posture
-
-This public documentation package contains only the ten named Markdown documents (five English + five Russian). Demo assets, code, recordings, binaries, and deployment material are not included. The allowlist defines content boundaries, not blanket permission to publish future additions.
-
-The source remains private. Any future demo implementation or addition is separate work requiring explicit authorization and content review.
+For implementation status and open problems, see [current stage](current-stage.md).
