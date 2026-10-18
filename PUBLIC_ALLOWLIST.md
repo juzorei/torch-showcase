@@ -2,12 +2,16 @@
 
 [English](PUBLIC_ALLOWLIST.md) | [Русский](PUBLIC_ALLOWLIST.ru.md)
 
-The owner has authorized these ten public Markdown documents. The source remains private; no runtime or demo is published.
+Exactly these **14 Markdown files** are authorized. The source remains private; this is a documentation showcase, not a runtime or asset distribution.
 
-## Files in scope
+## Exact inventory
 
 - `README.md`
 - `README.ru.md`
+- `docs/features.md`
+- `docs/features.ru.md`
+- `docs/architecture.md`
+- `docs/architecture.ru.md`
 - `docs/current-stage.md`
 - `docs/current-stage.ru.md`
 - `docs/what-will-be-shown.md`
@@ -17,20 +21,13 @@ The owner has authorized these ten public Markdown documents. The source remains
 - `PUBLIC_DENYLIST.md`
 - `PUBLIC_DENYLIST.ru.md`
 
-## Allowed content
+## Permitted content
 
-- A plain description of Torch as a bot project for Torchlight Infinite and the roles of its campaign/FSM, controls, navigation, tracker, and experimental fleet.
-- The implementation status, check history, unproven behavior, and high-level blockers described in [current stage](docs/current-stage.md), without private operational details.
-- Proposals for synthetic, offline examples as described in [proposed demos](docs/what-will-be-shown.md), clearly separated from existing work and results.
-- Privacy, licensing, provenance, and publication-review rules.
-- English and Russian versions with relative links between these ten documents.
+- Original EN/RU descriptions of the 18 feature groups, hybrid architecture, existing UI families, developer tools, and their integration boundaries.
+- The 2026-10-18 working-copy assessment, including uncommitted WIP, clearly separating implemented/wired paths, standalone tools, historical checks, and unverified live behavior.
+- Descriptions of existing private map/replay tools and proposals for public synthetic examples, without publishing either private artifacts or uncreated demos as results.
+- Concise privacy, provenance, rights, and publication policies; relative links within this inventory and a language switch in every document.
 
-## Review rules
+The [denylist](PUBLIC_DENYLIST.md) takes priority. Anything beyond this inventory needs separate explicit owner approval and content, privacy, security, provenance, and rights review. High-level component names are allowed; source exports and operational recipes are not.
 
-Anything not explicitly allowed stays out. The [denylist](PUBLIC_DENYLIST.md) takes priority in a conflict or when there is uncertainty.
-
-Do not copy private code, documentation excerpts, history, logs, sessions, recordings, or runtime assets. Truncation, renaming, and partial masking are not sufficient redaction. Keep historical results, current unknowns, and future proposals distinct.
-
-Future additions need separate, explicit owner approval and content, privacy, security, provenance, and rights review. Original toy diagrams, invented graphs, fabricated timelines, and worker simulations may be considered, but are not approved by this list. They must be created independently of private artifacts and labeled synthetic.
-
-These documents grant no license to the private source or its dependencies and assets.
+Future examples must be independently invented, not shortened or masked private recordings. Reused foundations must not be described as entirely original work; imported build references require rights review. These documents grant no license to private code, dependencies, or assets.

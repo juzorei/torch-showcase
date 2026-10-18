@@ -2,15 +2,15 @@
 
 [English](PUBLIC_DENYLIST.md) | [Русский](PUBLIC_DENYLIST.ru.md)
 
-The [allowlist](PUBLIC_ALLOWLIST.md) names all ten permitted files and their scope. Everything else is excluded by default. These prohibitions take priority over an allowed category, including when there is uncertainty.
+The [allowlist](PUBLIC_ALLOWLIST.md) authorizes exactly 14 documentation files. Everything else is excluded by default; these restrictions take priority when categories conflict or content is uncertain.
 
-## Keep out
+## Keep private
 
-- **Credentials and identity:** secrets, tokens, cookies, keys, environment exports, personal data, and private account, device, or infrastructure identifiers—even partially masked.
-- **Code and operations:** source, executable snippets, binaries, dependencies, launchers, runnable configuration, exact endpoints, addresses, ports, process names, command payloads, and connection details. No setup or invocation instructions for accounts, proxies, remote desktop, VMs, adapters, RPC, shell, or private infrastructure.
-- **Memory and game data:** offsets, signatures, pointer chains, dumps, reverse-engineering notes, real maps, meshes, routes, geometry, and derived navigation data.
-- **Private history and recordings:** private documentation excerpts, development history, raw sessions, logs, telemetry, screenshots, crash dumps, network captures, and sensitive artifacts. Shortening, filtering, or renaming private material does not make it redacted or synthetic.
-- **Uncleared assets:** extracted or third-party material without confirmed origin and redistribution rights. This package grants no rights to private code, dependencies, or assets.
-- **Unsupported claims:** readiness, reliability, autonomy, checkpoint recovery, remote integration, fleet acceptance, capacity, or settled rotation presented as proven; a current result inferred from a historical pass or failure; CI coverage or a frozen release without evidence; proposed demos presented as existing or as proof of live behavior. Stating what is unproven is allowed.
+- **Secrets and identities:** credentials, keys, tokens, cookies, environment exports, personal data, and private account, device, or infrastructure identifiers, including partially masked values.
+- **Source and runtime:** code or source excerpts, binaries, dependencies, launchers, working configurations, command payloads, exact endpoints, connection details, and instructions for operating the bot or private services. No account, proxy, remote-desktop, VM, or transport setup recipes.
+- **Memory and game data:** offsets, signatures, pointer chains, dumps, memory-access recipes, reverse-engineering instructions, raw or derived real maps, meshes, routes, and geometry.
+- **Sessions and artifacts:** private documentation excerpts, development-history exports, recordings, logs, telemetry, screenshots, crash dumps, network captures, and session derivatives. Truncation, renaming, filtering, or partial masking is not sufficient redaction.
+- **Traceability leaks and uncleared assets:** external URLs, local machine paths, private source file/line references, revision hashes, and extracted or third-party materials without verified redistribution rights, including imported build references.
+- **Unsupported claims:** implemented code presented as live acceptance; historical checks or definition counts presented as current coverage/green status; persisted checkpoint restore presented as existing; autonomy, profit, remote readiness, fleet capacity, or universal capability gating without evidence; proposed public demos presented as completed. Accurate descriptions of implemented functionality and its limits are allowed.
 
-Do not modify or run the private source, bot, servers, diagnostics, tests, or game as part of documentation work. Do not add runnable material. Future additions or publication beyond the authorized documentation require separate owner approval and content, privacy, security, provenance, and rights review.
+Documentation work must not read the private source again, modify or run the bot, tests, diagnostics, services, or game, or initiate network activity. No commit, push, runtime files, screenshots, or source exports belong to this rewrite. Further additions or publication actions require separate owner approval and review. No rights to private code or assets are granted.
