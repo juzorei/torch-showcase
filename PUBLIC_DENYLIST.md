@@ -1,5 +1,7 @@
 # Public-content denylist
 
+[English](PUBLIC_DENYLIST.md) | [Русский](PUBLIC_DENYLIST.ru.md)
+
 **Snapshot — 2026-10-18. Default deny for additions. The curated documentation has been published publicly with the owner's authorization. The source remains private.**
 
 This policy describes prohibited categories without including examples of their actual contents. It overrides the allowlist whenever there is uncertainty or conflict.
@@ -56,4 +58,19 @@ Negative statements that explicitly identify these claims as unproven are allowe
 
 Leave the material out. Describe the limitation at a high level rather than inserting a realistic example. Any future inclusion needs its own authorization and privacy, security, licensing, and provenance review.
 
-The source remains private. This five-document curated package is public and non-runnable. No runtime or demo has been published; future additions require separate approval and review.
+## Documentation inventory
+
+This package contains ten text documents (five English + five Russian):
+
+- `README.md`
+- `README.ru.md`
+- `docs/current-stage.md`
+- `docs/current-stage.ru.md`
+- `docs/what-will-be-shown.md`
+- `docs/what-will-be-shown.ru.md`
+- `PUBLIC_ALLOWLIST.md`
+- `PUBLIC_ALLOWLIST.ru.md`
+- `PUBLIC_DENYLIST.md`
+- `PUBLIC_DENYLIST.ru.md`
+
+The source remains private. This ten-document curated package is public and non-runnable. No runtime or demo has been published; future additions require separate approval and review.

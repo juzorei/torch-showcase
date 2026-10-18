@@ -1,20 +1,27 @@
 # Public-content allowlist
 
+[English](PUBLIC_ALLOWLIST.md) | [Русский](PUBLIC_ALLOWLIST.ru.md)
+
 **Snapshot — 2026-10-18. This policy covers the public curated documentation and review of future additions.**
 
 The curated documentation has been published publicly with the owner's authorization. The source remains private. No runtime or demo has been published; future additions require separate approval and review.
 
 ## Allowed in this package
 
-Only these five text documents are in scope:
+Only these ten text documents (five English + five Russian) are in scope:
 
 - `README.md`
+- `README.ru.md`
 - `docs/current-stage.md`
+- `docs/current-stage.ru.md`
 - `docs/what-will-be-shown.md`
+- `docs/what-will-be-shown.ru.md`
 - `PUBLIC_ALLOWLIST.md`
+- `PUBLIC_ALLOWLIST.ru.md`
 - `PUBLIC_DENYLIST.md`
+- `PUBLIC_DENYLIST.ru.md`
 
-Permitted content is limited to:
+English and Russian versions are permitted. Permitted content is limited to:
 
 - A coming-later description of evidence-driven automation, fault-tolerant control, navigation planning, and offline replay as future demonstration goals.
 - Abstract descriptions of campaign/FSM, control plane, navigation, tracker, and experimental fleet layers.
@@ -23,7 +30,7 @@ Permitted content is limited to:
 - High-level blocker descriptions that disclose no exploitable details or operational values.
 - Prose descriptions of planned synthetic demonstrations and their evidence boundaries.
 - Privacy, provenance, licensing, and publication-review requirements.
-- Relative links between these five documents.
+- Relative links between these ten documents.
 
 ## Candidate future material, not included or approved now
 
@@ -40,4 +47,4 @@ This list does not pre-approve adding files, creating a runnable demo, exporting
 5. Separate historical observations, present unknowns, and future goals in every claim.
 6. Require a separate, explicit owner decision before publishing future additions, followed by content and rights review.
 
-The source remains private; the current five-document curated package is public.
+The source remains private; the current ten-document curated package (five English + five Russian) is public.

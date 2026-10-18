@@ -1,5 +1,7 @@
 # Current stage
 
+[English](current-stage.md) | [Русский](current-stage.ru.md)
+
 **Project snapshot — 2026-10-18:** core campaign/FSM, control, navigation, and tracker layers are implemented. Integration and offline validation are ongoing. Full autonomous campaign completion and remote fleet acceptance are pending. The fleet layer remains experimental.
 
 **Curated documentation published publicly with the owner's authorization. The source remains private. No runtime or demo has been published.** No completion percentage or release date is assigned.

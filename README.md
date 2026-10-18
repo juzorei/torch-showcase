@@ -1,5 +1,7 @@
 # Torch — documentation showcase
 
+[English](README.md) | [Русский](README.ru.md)
+
 **Project snapshot — 2026-10-18:** core campaign/FSM, control, navigation, and tracker layers are implemented. Integration and offline validation are ongoing. Full autonomous campaign completion and remote fleet acceptance are pending.
 
 **Showcase status:** curated, text-only documentation published publicly with the owner's authorization. Not runnable. No completion percentage or delivery date is claimed.

@@ -1,5 +1,7 @@
 # What will be shown later
 
+[English](what-will-be-shown.md) | [Русский](what-will-be-shown.ru.md)
+
 **Snapshot — 2026-10-18. Curated documentation published publicly with the owner's authorization. Planned demonstrations only; no runtime or demo has been published.**
 
 The source remains private. The proposed showcase will explain evidence-driven automation using newly authored synthetic scenarios, not exports from private sessions or live environments.
@@ -40,6 +42,6 @@ Offline replay is a future demonstration goal. No private replay data, raw sessi
 
 ## Release posture
 
-This public documentation package contains only the five named Markdown documents. Demo assets, code, recordings, binaries, and deployment material are not included. The allowlist defines content boundaries, not blanket permission to publish future additions.
+This public documentation package contains only the ten named Markdown documents (five English + five Russian). Demo assets, code, recordings, binaries, and deployment material are not included. The allowlist defines content boundaries, not blanket permission to publish future additions.
 
 The source remains private. Any future demo implementation or addition is separate work requiring explicit authorization and content review.
