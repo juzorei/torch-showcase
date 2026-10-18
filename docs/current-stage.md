@@ -2,7 +2,7 @@
 
 **Project snapshot — 2026-10-18:** core campaign/FSM, control, navigation, and tracker layers are implemented. Integration and offline validation are ongoing. Full autonomous campaign completion and remote fleet acceptance are pending. The fleet layer remains experimental.
 
-**Local status document. Not published. The source remains private.** No completion percentage or release date is assigned.
+**Curated documentation published publicly with the owner's authorization. The source remains private. No runtime or demo has been published.** No completion percentage or release date is assigned.
 
 ## Baseline and evidence limits
 
@@ -44,6 +44,6 @@ These are open readiness constraints, not completed remediation claims.
 
 ## Scope of this package
 
-This is a coming-later page, not a runnable showcase. It contains editorial descriptions only. It deliberately omits operational values, integration details, private evidence, source code, and runtime assets.
+This is a public documentation page, not a runnable showcase. It contains editorial descriptions only. It deliberately omits operational values, integration details, private evidence, source code, and runtime assets.
 
-A future synthetic demonstration would prove only its stated, bounded properties. It would not prove live campaign autonomy, remote deployment readiness, fleet capacity, or production reliability. The source remains private. This package has not been published, and publication requires separate explicit approval.
+A future synthetic demonstration would prove only its stated, bounded properties. It would not prove live campaign autonomy, remote deployment readiness, fleet capacity, or production reliability. The source remains private. Future additions require separate explicit approval and content review.

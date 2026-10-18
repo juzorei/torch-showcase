@@ -1,10 +1,10 @@
-# Torch — showcase coming later
+# Torch — documentation showcase
 
 **Project snapshot — 2026-10-18:** core campaign/FSM, control, navigation, and tracker layers are implemented. Integration and offline validation are ongoing. Full autonomous campaign completion and remote fleet acceptance are pending.
 
-**Showcase status:** local, text-only coming-later preview. Not published. Not runnable. No completion percentage or delivery date is claimed.
+**Showcase status:** curated, text-only documentation published publicly with the owner's authorization. Not runnable. No completion percentage or delivery date is claimed.
 
-The source project remains private. This separate package describes a possible future showcase; it contains no source distribution, executable demo, deployment guide, or release. Creating these documents does not authorize publication.
+The source project remains private. This separate package describes a possible future runnable showcase; it contains no source distribution, executable demo, deployment guide, or runtime release. No runtime or demo has been published. Future additions require separate explicit authorization and content review.
 
 ## The future thesis
 
@@ -36,7 +36,7 @@ A layer's presence does not establish end-to-end reliability or readiness for ex
 
 Implementation of the core layers is a meaningful engineering milestone, not an end-to-end acceptance result. This status snapshot is not a release certificate.
 
-## Why the showcase is not ready
+## Why runnable demonstrations are not ready
 
 Open blockers include the untrusted internal RPC/shell boundary; recorder truncation that is not redaction; remote adapter/tracker contract gaps; unresolved fleet rotation semantics; and sensitive-artifact, licensing, and provenance review. These must not be hidden behind polished demo material.
 
@@ -51,4 +51,4 @@ Only synthetic, offline demonstrations are proposed: a small FSM, fault-handling
 - [Public-content allowlist](PUBLIC_ALLOWLIST.md)
 - [Public-content denylist](PUBLIC_DENYLIST.md)
 
-There are no installation or run instructions. The source remains private, and this package is not published. Any future publication requires separate explicit authorization and content review.
+There are no installation or run instructions. The source remains private; only the curated documentation is public. Future additions require separate explicit authorization and content review.

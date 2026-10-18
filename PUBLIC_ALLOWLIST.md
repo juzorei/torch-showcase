@@ -1,8 +1,8 @@
 # Public-content allowlist
 
-**Snapshot — 2026-10-18. This is a local review policy, not publication authorization.**
+**Snapshot — 2026-10-18. This policy covers the public curated documentation and review of future additions.**
 
-The source remains private. This package is not published. The word "public" in this filename identifies an intended review boundary, not a current distribution status.
+The curated documentation has been published publicly with the owner's authorization. The source remains private. No runtime or demo has been published; future additions require separate approval and review.
 
 ## Allowed in this package
 
@@ -29,7 +29,7 @@ Permitted content is limited to:
 
 Original toy state diagrams, invented graphs, fabricated event timelines, and abstract worker simulations may be considered later. They must be authored independently of private artifacts, clearly labeled synthetic, and reviewed for provenance and sensitive content.
 
-This is not permission to add files, create a runnable demo, export private data, or publish anything. No source license or redistribution permission is granted by this package.
+This list does not pre-approve adding files, creating a runnable demo, exporting private data, or publishing future additions. No source license or redistribution permission is granted by this package.
 
 ## Review rules
 
@@ -38,6 +38,6 @@ This is not permission to add files, create a runnable demo, export private data
 3. Do not copy private code, documentation excerpts, logs, sessions, recordings, or runtime assets into this package.
 4. Do not treat truncation, renaming, or partial masking as sufficient redaction.
 5. Separate historical observations, present unknowns, and future goals in every claim.
-6. Require a separate, explicit owner decision before any publication, followed by content and rights review.
+6. Require a separate, explicit owner decision before publishing future additions, followed by content and rights review.
 
-The source remains private, and the package remains unpublished.
+The source remains private; the current five-document curated package is public.

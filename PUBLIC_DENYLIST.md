@@ -1,6 +1,6 @@
 # Public-content denylist
 
-**Snapshot — 2026-10-18. Default deny. The source remains private. This package is not published.**
+**Snapshot — 2026-10-18. Default deny for additions. The curated documentation has been published publicly with the owner's authorization. The source remains private.**
 
 This policy describes prohibited categories without including examples of their actual contents. It overrides the allowlist whenever there is uncertainty or conflict.
 
@@ -50,10 +50,10 @@ Negative statements that explicitly identify these claims as unproven are allowe
 - Modifying the private source project.
 - Running its bot, servers, diagnostic tools, tests, or live game.
 - Adding any executable or runnable showcase material.
-- Publishing, uploading, pushing, sharing externally, or creating a public release or repository.
+- Publishing, uploading, pushing, or sharing material beyond the owner-authorized curated documentation without separate approval and review.
 
 ## When in doubt
 
 Leave the material out. Describe the limitation at a high level rather than inserting a realistic example. Any future inclusion needs its own authorization and privacy, security, licensing, and provenance review.
 
-The source remains private. This five-document package is local, non-runnable, and not published.
+The source remains private. This five-document curated package is public and non-runnable. No runtime or demo has been published; future additions require separate approval and review.
